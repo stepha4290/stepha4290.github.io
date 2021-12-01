@@ -1,0 +1,969 @@
+body {
+  background-color: lightyellow;
+}
+
+.logobox img{
+  width: 11%;
+  height: 11%;
+  border-style: solid;2px;
+  border-radius: 10%;
+  border-color: green;
+  float:left;
+  margin-top: 3%;
+  animation-name: logomove;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.h1box{
+  width: 70%;
+  background-color: lightpink;
+  float: left;
+  margin-left: 7%;
+  margin-top: 3%;
+  font-size: 15px;
+  font-family: fantasy;
+  font-weight: lighter;
+  color:green;
+}
+
+.h2box{
+ color: green;
+ float: left;
+ font-size: 15px;
+ margin-top: -4%;
+ font-style: italic;
+ margin-left: 20%;
+}
+
+@keyframes logomove{
+  0% { transform: rotate(0deg); }
+ 65% { transform: rotate(0deg); }
+ 80% { transform: rotate(5deg); }
+ 93% { transform: rotate(-7deg);}
+ 100% { transform: rotate(0deg); }
+}
+
+.slideshow h1{
+  position: absolute;
+  margin-left: 20%;
+  display: block;
+  color: green;
+  margin-top:15%;
+  width: 60%;
+  font-size: 28px;
+  animation-duration: 15s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-name: slide1;
+}
+
+.slideshow h2{
+  position: absolute;
+  margin-left: 20%;
+  display: block;
+  color: green;
+  margin-top: 15%;
+  width: 60%;
+  font-size: 28px;;
+  animation-duration: 15s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-name: slide2;
+}
+
+.slideshow h3 {
+	position: absolute;
+  margin-left: 20%;
+  display: block;
+  color: green;
+	margin-top: 15%;
+  width: 60%;
+  font-size: 28px;
+	animation-duration: 15s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+  animation-name: slide3;
+}
+
+@keyframes slide1{
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes slide2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 25%; opacity: 1; }
+  66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes slide3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
+
+ .introparagraph1 p{
+ position: absolute;
+ top: 80%;
+ left: 20%;
+ transform: translate(-50%,-50%);
+ font-size: 15px;
+ border-style: solid;
+ border-radius: 8px;
+ background-color: grey;
+}
+
+.introimage1 img{
+  margin-top: 5%;
+  width: 100%;
+  height:100%;
+}
+
+.introparagraph2 p2{
+  position:absolute;
+  text-align: center;
+  margin-left: 36%;
+  margin-top: 10%;
+  font-size: 15px;
+  color: white;
+}
+
+.introimage2 img{
+  width: 100%;
+  height:100%;
+}
+
+.josefinatitle h4{
+  font-size: 15px;
+  font-family: fantasy;
+  margin-left: 3%;
+}
+
+.item1 img{
+  float: left;
+  width: 30%;
+}
+
+.item1 h5{
+  margin-left: 8%;
+  position: absolute;
+  margin-top: 28%;
+  text-align: center;
+  font-family: italic;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.ADDButton1 {
+font-size: 15px;
+border-style: solid;
+border-radius: 2px;
+background-color: black;
+color: white;
+padding: 2px;
+float: left;
+margin-top: 37%;
+margin-left:-18%;
+}
+
+.mymodal1{
+  position:absolute;
+  top: 0;
+  right: 0;
+  bottom: 0%;
+  left: 0;
+  background-color:rgb(235,225,215);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.mymodal1:target {
+  opacity: 1;
+  pointer-events:auto;
+}
+
+.msgblock1{
+position:relative;
+background-color: white;
+width:650px;
+height: 600px;
+margin-left: 32%;
+margin-top:-15%;
+}
+
+.msgblock1 h1{
+  color: black;
+  text-align: left;
+  font-size: 22px;
+  font-weight: lighter;
+  background-color: white;
+  margin-top: 50%;
+  margin-left: 5%;
+}
+
+.msgblock1 img{
+  height: 280px;
+  width: 280px;
+  float: left;
+  margin-top:-90%;
+  margin-left: 45px;
+}
+
+.msgblock1 p{
+  color: black;
+  font-size: 18px;
+  background-color: white;
+  width: 45%;
+  float: left;
+  margin-top: 16%;
+  margin-left: 50%;
+  text-align: center;
+  font-style: italic;
+}
+
+.msgblock1 h2{
+  color: black;
+  font-size: 18px;
+  font-weight: lighter;
+  font-style: italic;
+  width: 99%;
+  background-color: rgb(211,210,209);
+  height: 30%;
+  margin-top: 70%;
+  border-style: solid;
+  border-color:rgb(211,210,209);
+}
+
+.closebutton1{
+border-style: solid;
+border-color: white;
+border-radius: 2px;
+background-color: white;
+color: black;
+text-decoration: none;
+margin-left: 2%;
+font-size: 15px;
+float: left;
+margin-top: -15%;
+}
+
+.item2 img{
+ width:30%;
+ text-align: center;
+ margin-left: -19%;
+ align-items: center;
+}
+
+.item2 h6{
+ margin-left: 43%;
+ margin-top: -2%;
+ position: absolute;
+ text-align: center;
+ font-family: italic;
+ font-weight: lighter;
+ font-size: 15px;
+}
+
+.ADDButton2 {
+font-size: 15px;
+border-style: solid;
+border-radius: 2px;
+background-color: black;
+color: white;
+padding: 2px;
+float: left;
+margin-top: 37%;
+margin-left: 19%;
+}
+
+.mymodal2{
+  position:absolute;
+  top: 0;
+  right: 0;
+  bottom: 0%;
+  left: 0;
+  background-color:rgb(235,225,215);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.mymodal2:target {
+  opacity: 1;
+  pointer-events:auto;
+}
+
+.msgblock2{
+position:relative;
+background-color: white;
+width:650px;
+height: 600px;
+margin-left: 32%;
+margin-top:-15%;
+}
+
+.msgblock2 h1{
+  color: black;
+  text-align: left;
+  font-size: 22px;
+  font-weight: lighter;
+  background-color: white;
+  margin-top: 50%;
+  margin-left: 5%;
+}
+
+.msgblock2 img{
+  height: 250px;
+  width: 250px;
+  float:left;
+  margin-top: -75%;
+  margin-left: 45px;
+}
+
+.msgblock2 p{
+  color: black;
+  font-size: 18px;
+  background-color: white;
+  width: 45%;
+  float: right;
+  margin-top: 8%;
+  margin-left: 50%;
+  text-align: center;
+  font-style: italic;
+}
+
+.msgblock2 h2{
+  color: black;
+  font-size: 18px;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: left;
+  width: 99%;
+  background-color: rgb(211,210,209);
+  height: 30%;
+  margin-top: 50%;
+  border-style: solid;
+  border-color:rgb(211,210,209);
+}
+
+.closebutton2 {
+border-style: solid;
+border-color: white;
+border-radius: 2px;
+background-color: white;
+color: black;
+text-decoration: none;
+margin-left: 2%;
+font-size: 15px;
+float: left;
+margin-top: -15%;
+}
+
+.item3 img{
+ width:30%;
+ float:right;
+ margin-top: -30%;
+}
+
+.item3 h7{
+  margin-left: 23%;
+  margin-top: -2%;
+  position: absolute;
+  text-align: center;
+  font-family: italic;
+  font-size: 15px;
+}
+
+.ADDButton3 {
+font-size: 15px;
+border-style: solid;
+border-radius: 2px;
+background-color: black;
+color: white;
+padding: 2px;
+float: right;
+margin-top: 5%;
+margin-right: 11%;
+}
+
+.mymodal3{
+  position:absolute;
+  top: 0;
+  right: 0;
+  bottom: 0%;
+  left: 0;
+  background-color:rgb(235,225,215);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.mymodal3:target {
+  opacity: 1;
+  pointer-events:auto;
+}
+
+.msgblock3{
+position:relative;
+background-color: white;
+width:650px;
+height: 600px;
+margin-left: 32%;
+margin-top:-15%;
+}
+
+.msgblock3 h1{
+  color: black;
+  text-align: left;
+  font-size: 22px;
+  font-weight: lighter;
+  background-color: white;
+  margin-top: 50%;
+  margin-left: 5%;
+}
+
+.msgblock3 img{
+  height: 250px;
+  width: 250px;
+  float:left;
+  margin-top: -75%;
+  margin-left: 45px;
+}
+
+.msgblock3 p{
+  color: black;
+  font-size: 18px;
+  background-color: white;
+  width: 45%;
+  float: right;
+  margin-top: 8%;
+  margin-left: 50%;
+  text-align: center;
+  font-style: italic;
+}
+
+.msgblock3 h2{
+  color: black;
+  font-size: 18px;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: left;
+  width: 99%;
+  background-color: rgb(211,210,209);
+  height: 30%;
+  margin-top: 50%;
+  border-style: solid;
+  border-color:rgb(211,210,209);
+}
+
+.closebutton3 {
+border-style: solid;
+border-color: white;
+border-radius: 2px;
+background-color: white;
+color: black;
+text-decoration: none;
+margin-left: 2%;
+font-size: 15px;
+float: left;
+margin-top: -15%;
+}
+
+.josefinatitle2 h8{
+  font-size: 15px;
+  font-weight:bold;
+  float: left;
+  margin-left: -52%;
+  margin-top: 10%;
+  font-family: fantasy;
+}
+
+.josefinatitle2 hr{
+  align-items: center;
+  margin-top: 14%;
+}
+
+.giftSet1 img{
+  width:30%;
+  float:left;
+  margin-left: -5%;
+}
+
+.giftSet1 h1{
+  float: left;
+  margin-left: 5%;
+  margin-top: 27%;
+  position: absolute;
+  text-align: center;
+  font-family: italic;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.ADDButton4 {
+font-size: 15px;
+border-style: solid;
+border-radius: 2px;
+background-color: black;
+color: white;
+padding: 2px;
+float: left;
+margin-top: 37%;
+margin-left: -12%;
+
+}
+
+.mymodal4{
+  position:absolute;
+  top: 0;
+  right: 0;
+  bottom: 0%;
+  left: 0;
+  background-color:rgb(235,225,215);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.mymodal4:target {
+  opacity: 1;
+  pointer-events:auto;
+}
+
+.msgblock4{
+position:relative;
+background-color: white;
+width:650px;
+height: 600px;
+margin-left: 32%;
+margin-top:-15%;
+}
+
+.msgblock4 h1{
+  color: black;
+  text-align: left;
+  font-size: 22px;
+  font-weight: lighter;
+  background-color: white;
+  margin-top: 50%;
+  margin-left: 5%;
+}
+
+.msgblock4 img{
+  height: 250px;
+  width: 250px;
+  float:left;
+  margin-top: -75%;
+  margin-left: 45px;
+}
+
+.msgblock4 p{
+  color: black;
+  font-size: 18px;
+  background-color: white;
+  width: 45%;
+  float: right;
+  margin-top: 8%;
+  margin-left: -40%;
+  text-align: center;
+  font-style: italic;
+}
+
+.msgblock4 h2{
+  color: black;
+  font-size: 18px;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: left;
+  width: 99%;
+  background-color: rgb(211,210,209);
+  height: 30%;
+  margin-top: 60%;
+  border-style: solid;
+  border-color:rgb(211,210,209);
+}
+
+.closebutton4 {
+border-style: solid;
+border-color: white;
+border-radius: 2px;
+background-color: white;
+color: black;
+text-decoration: none;
+margin-left: 2%;
+font-size: 15px;
+float: left;
+margin-top: -13%;
+}
+
+.giftSet2 img{
+  width:30%;
+  text-align: center;
+  margin-left: 12%;
+}
+
+.giftSet2 h1{
+  margin-left: 40%;
+  margin-top: -2%;
+  position: absolute;
+  text-align: center;
+  font-family: italic;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.ADDButton5 {
+font-size: 15px;
+border-style: solid;
+border-radius: 2px;
+background-color: black;
+color: white;
+padding: 2px;
+float: left;
+margin-top: 7%;
+margin-left: 35%;
+}
+
+.mymodal5{
+  position:absolute;
+  top: 0;
+  right: 0;
+  bottom: 0%;
+  left: 0;
+  background-color:rgb(235,225,215);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.mymodal5:target {
+  opacity: 1;
+  pointer-events:auto;
+}
+
+.msgblock5{
+position:relative;
+background-color: white;
+width:650px;
+height: 600px;
+margin-left: 32%;
+margin-top:-15%;
+}
+
+.msgblock5 h1{
+  color: black;
+  text-align: left;
+  font-size: 22px;
+  font-weight: lighter;
+  background-color: white;
+  margin-top: 50%;
+  margin-left: 5%;
+}
+
+.msgblock5 img{
+  height: 250px;
+  width: 250px;
+  float:left;
+  margin-top: -75%;
+  margin-left: 45px;
+}
+
+.msgblock5 p{
+  color: black;
+  font-size: 18px;
+  background-color: white;
+  width: 45%;
+  float: right;
+  margin-top: 8%;
+  margin-left: 50%;
+  text-align: center;
+  font-style: italic;
+}
+
+.msgblock5 h2{
+  color: black;
+  font-size: 18px;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: left;
+  width: 99%;
+  background-color: rgb(211,210,209);
+  height: 30%;
+  margin-top: 50%;
+  border-style: solid;
+  border-color:rgb(211,210,209);
+}
+
+.closebutton5 {
+border-style: solid;
+border-color: white;
+border-radius: 2px;
+background-color: white;
+color: black;
+text-decoration: none;
+margin-left: 2%;
+font-size: 15px;
+float: left;
+margin-top: -15%;
+}
+
+.giftSet3 img{
+ float: right;
+ width: 30%;
+ margin-top: -29%;
+}
+
+.giftSet3 h1{
+  margin-left: 78%;
+  position: absolute;
+  float: right;
+  margin-top: -2%;
+  text-align: center;
+  font-family: italic;
+  font-weight: lighter;
+  font-size: 15px;
+  }
+
+.ADDButton6 {
+font-size: 15px;
+border-style: solid;
+border-radius: 2px;
+background-color: black;
+color: white;
+padding: 2px;
+float: right;
+margin-top: 7%;
+margin-right: 8%;
+}
+
+.mymodal6{
+  position:absolute;
+  top: 0;
+  right: 0;
+  bottom: 0%;
+  left: 0;
+  background-color:rgb(235,225,215);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.mymodal6:target {
+  opacity: 1;
+  pointer-events:auto;
+}
+
+.msgblock6{
+position:relative;
+background-color: white;
+width:650px;
+height: 600px;
+margin-left: 32%;
+margin-top:-15%;
+}
+
+.msgblock6 h1{
+  color: black;
+  text-align: left;
+  font-size: 22px;
+  font-weight: lighter;
+  background-color: white;
+  margin-top: 50%;
+  margin-left: 5%;
+}
+
+.msgblock6 img{
+  height: 250px;
+  width: 250px;
+  float:left;
+  margin-top: -75%;
+  margin-left: 45px;
+}
+
+.msgblock6 p{
+  color: black;
+  font-size: 18px;
+  background-color: white;
+  width: 45%;
+  float: right;
+  margin-top: 8%;
+  margin-left: 50%;
+  text-align: center;
+  font-style: italic;
+}
+
+.msgblock6 h2{
+  color: black;
+  font-size: 18px;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: left;
+  width: 99%;
+  background-color: rgb(211,210,209);
+  height: 30%;
+  margin-top: 50%;
+  border-style: solid;
+  border-color:rgb(211,210,209);
+}
+
+.closebutton6 {
+border-style: solid;
+border-color: white;
+border-radius: 2px;
+background-color: white;
+color: black;
+text-decoration: none;
+margin-left: 2%;
+font-size: 15px;
+float: left;
+margin-top: -15%;
+}
+
+.footer{
+  position:absolute;
+  margin-top: 30%;
+  background-color: black;
+  color: white;
+  height: 60%;
+  width: 100%;
+}
+.HELP h1{
+  float: left;
+  color: White;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 110%;
+  margin-top: 4%;
+  margin-left: 6%;
+}
+
+.HELP P{
+  float: left;
+  color: white;
+  font-style: normal;
+  font-size: 110%;
+  margin-top: 6%;
+  margin-left: -6%;
+  text-align: center;
+}
+
+
+.ACCOUNT h1{
+  color: White;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 110%;
+  margin-top: 4%;
+  margin-left: 8%;
+}
+
+.ACCOUNT P{
+  color: white;
+  font-style: normal;
+  font-size: 110%;
+  margin-top: 6%;
+  margin-left: -7%;
+  text-align: center;
+}
+
+.SUBSCRIBE1 h1{
+  color: White;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 110%;
+  margin-top: 4%;
+  margin-left: 12%;
+}
+
+.SUBSCRIBE1 P{
+  float: left;
+  color: white;
+  font-style: normal;
+  font-size: 110%;
+  margin-top:6%;
+  margin-left: -9%;
+  text-align: center;
+}
+
+
+.THECARD1 h1{
+  float: right;
+  color: White;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 110%;
+  margin-top: 4%;
+  margin-left: 36%;
+}
+
+.THECARD1 P{
+  float: right;
+  color: white;
+  font-style: normal;
+  font-size: 110%;
+  margin-top: 6%;
+  margin-left: 36%;
+  text-align: center;
+}
+
+.horizontal hr{
+  clear: both;
+}
+
+.SOCIALMEDIA h1{
+  font-size: 100%;
+  color: white;
+  text-align: right;
+  margin-left: 60%;
+}
+
+.FB img{
+  width: 5%;
+  height:5%;
+  margin-top: 0%;
+  float: left;
+  margin-left: 60%;
+}
+
+.ig img{
+    width: 5%;
+    height:5%;
+    margin-top: -5%;
+    float: left;
+    margin-left: 65%;
+  }
+
+.yt img{
+  width: 5%;
+  height:5%;
+  margin-top: -5%;
+  float: left;
+  margin-left: 70%;
+}
+
+.pin img{
+  width: 5%;
+  height:5%;
+  margin-top: -5%;
+  float: left;
+  margin-left: 75%;
+}
+
+.twitter img{
+  width: 5%;
+  height:5%;
+  margin-top: -5%;
+  float: left;
+  margin-left: 80%;
+}
+
+.ending h1{
+  font-size: 75%;
+  text-align: center;
+  margin-left: 40%;
+  margin-top: 10%;
+}
+
+.ending p{
+  font-size: 75%;
+  text-align: center;
+  margin-left: 27%;
+  margin-top: 0%;
+}
